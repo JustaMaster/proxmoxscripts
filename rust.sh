@@ -7,7 +7,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Variables - You can modify these if needed
-VMID=100  # VM ID, make sure it's unique in your Proxmox setup
+VMID=103  # VM ID, make sure it's unique in your Proxmox setup
 VMNAME="RustServer"
 ISO_PATH="/var/lib/vz/template/iso/debian-11.3.0-amd64-netinst.iso"  # Path to Debian ISO
 STORAGE="local-lvm"  # Storage pool for the VM
