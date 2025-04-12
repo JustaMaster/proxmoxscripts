@@ -9,7 +9,7 @@ fi
 # Variables - You can modify these if needed
 VMID=103  # VM ID, make sure it's unique in your Proxmox setup
 VMNAME="RustServer"
-URL="/var/lib/vz/template/iso/debian-11.3.0-amd64-netinst.iso"  # Path to Debian ISO
+ISO_PATH="/var/lib/vz/template/iso/debian-12.0.0-amd64-netinst.iso"  # Path to Debian ISO
 STORAGE="Storage"  # Storage pool for the VM
 CORES=8  # Number of CPU cores
 RAM=12288  # RAM in MB (12GB)
